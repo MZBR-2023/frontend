@@ -15,8 +15,6 @@ module.exports = {
         loader: 'esbuild-loader',
         options: {
           target: 'es2021',
-          loader: 'tsx',
-          minify: true,
         },
       },
       {
